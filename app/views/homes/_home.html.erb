@@ -1,5 +1,9 @@
 <div id="<%= dom_id home %>">
   <p>
+    <strong>Image:</strong>
+    <%= image_tag home.image %> 
+  </p>
+  <p>
     <strong>Year built:</strong>
     <%= home.year_built %>
   </p>
@@ -43,10 +47,5 @@
     <strong>City:</strong>
     <%= home.city %>
   </p>
-
-  <p>
-    <strong>Image:</strong>
-    <%= image_tag home.image %> 
-  </p>
-
 </div>
+

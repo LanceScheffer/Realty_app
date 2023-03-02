@@ -1,0 +1,19 @@
+<nav class="full-nav">
+  <div class="nav-container">
+    <div class= "logo">
+    <%= image_tag "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1Z9EVmYTw-C0kM7WUPKFNySCRmEQm-pPRRQ&usqp=CAU", id: 'home-logo'%>
+    </div>
+
+    <h2>
+    ShowMe Realty
+    </h2>
+
+    <div class="nav-menu">
+        <ul>
+            <li class="list-item"><%= link_to "Home Page", homes_path %></li>
+            <li class="list-item"><%= link_to "Create New Listing", new_home_path %></li>            
+        </ul>
+    </div>
+  </div>
+</nav>
+
